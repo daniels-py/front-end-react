@@ -3,7 +3,7 @@
 .hero-banner {
     position: relative;
     min-height: 80vh;
-    background: rgb(0, 0, 0); /* fondo blanco translúcido */
+    background: rgb(0, 0, 0); /* Fondo negro */
     backdrop-filter: blur(15px);          /* efecto vidrio */
     -webkit-backdrop-filter: blur(15px);  /* compatibilidad con Safari */
 
@@ -17,38 +17,26 @@
     font-family: 'Inter', sans-serif;
 }
 
-/* Círculos borrosos decorativos */
+/* Círculo difuso tipo amanecer */
 .blur-circle {
     position: absolute;
     border-radius: 50%;
-    filter: blur(120px);
-    opacity: 0.6;
+    filter: blur(160px);
+    opacity: 0.7;
     z-index: 0;
 }
 
-.circle-1 {
-    width: 300px;
-    height: 300px;
-    background: #7002f7;
-    top: -80px;
-    left: -80px;
-}
-
-.circle-2 {
-    width: 250px;
-    height: 250px;
-    background: #7002f7;
-    bottom: -60px;
-    right: -60px;
-}
-
-.circle-3 {
-    width: 200px;
-    height: 200px;
-    background: #7002f7;;
-    top: 40%;
+.sunrise-circle {
+    width: 1400px;
+    height: 600px;
+    top: 80%;
     left: 50%;
     transform: translate(-50%, -50%);
+    background: radial-gradient(circle at center,
+        #d3b6f0,   /* morado claro */
+        #8818f0,   /* púrpura fuerte */
+        #eb5ab1    /* rosa amanecer */
+    );
 }
 
 .hero-content {
@@ -72,8 +60,7 @@
 
 .hero-button {
     padding: 0.8rem 2.2rem;
-    background-color: #ffffff;
-    color: #000000;
+    color: #ffffff;
     font-weight: 600;
     border-radius: 12px;
     text-decoration: none;
@@ -83,7 +70,7 @@
 }
 
 .hero-button:hover {
-    background-color: #000000;
+    background-color: #ffffff;
     color: #cfa8ff;
     border-color: #cfa8ff;
     transform: scale(1.05);

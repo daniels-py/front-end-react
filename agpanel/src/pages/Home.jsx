@@ -6,8 +6,9 @@ import '../pages/Home.css';
 
 /* Mis componentes */
 
-import Header from '../Components/header/Header'
+import Header from '../Components/Header/Header'
 import Herobanner from '../Components/Herobanner/HeroBanner';
+import Footer from '../Components/Footer/Footer';
 
 function Home() {
   const navigate = useNavigate();
@@ -16,11 +17,13 @@ function Home() {
     <div>
 
        <Header />
-        <Herobanner />
+       <Herobanner />
+       <Footer />
 
       <h5 className='titulo1'>hola mundo este es mi home</h5>
       <button onClick={() => navigate('/login')}>Ir a Login</button>
     </div>
+    
   )
 }
 
