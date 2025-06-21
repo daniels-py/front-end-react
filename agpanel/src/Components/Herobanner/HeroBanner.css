@@ -32,11 +32,14 @@
     top: 80%;
     left: 50%;
     transform: translate(-50%, -50%);
-    background: radial-gradient(circle at center,
-        #d3b6f0,   /* morado claro */
-        #8818f0,   /* púrpura fuerte */
-        #eb5ab1    /* rosa amanecer */
+    background: radial-gradient(circle at 30% 30%,
+        #d487ec 0%,
+        #8818f0 50%,
+        #eb5ab1 100%
     );
+    animation: moveGradient 10s linear infinite;
+    background-size: 300% 300%;
+    background-position: 0% 50%;
 }
 
 .hero-content {
@@ -85,6 +88,24 @@
     to {
         opacity: 1;
         transform: translateY(0);
+    }
+}
+
+@keyframes moveGradient {
+    0% {
+        background-position: 0% 50%;
+    }
+    25% {
+        background-position: 50% 0%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    75% {
+        background-position: 50% 100%;
+    }
+    100% {
+        background-position: 0% 50%;
     }
 }
 
