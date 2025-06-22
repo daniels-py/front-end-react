@@ -10,6 +10,8 @@ import Header from '../Components/Header/Header'
 import Herobanner from '../Components/Herobanner/HeroBanner';
 import Footer from '../Components/Footer/Footer';
 import WhatsAppButton from '../Components/WhatsAppButton/WhatsAppButton';
+import ProductoCatalogo from '../Components/ProductoCatalogo';
+
 
 function Home() {
   const navigate = useNavigate();
@@ -20,6 +22,9 @@ function Home() {
        <Header />
        <Herobanner />
       <WhatsAppButton />
+      {/* Aquí muestras el catálogo */}
+      <ProductoCatalogo />
+      
        <Footer />
 
       <h5 className='titulo1'>hola mundo este es mi home</h5>
