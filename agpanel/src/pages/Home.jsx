@@ -9,6 +9,7 @@ import '../pages/Home.css';
 import Header from '../Components/Header/Header'
 import Herobanner from '../Components/Herobanner/HeroBanner';
 import Footer from '../Components/Footer/Footer';
+import WhatsAppButton from '../Components/WhatsAppButton/WhatsAppButton';
 
 function Home() {
   const navigate = useNavigate();
@@ -18,6 +19,7 @@ function Home() {
 
        <Header />
        <Herobanner />
+      <WhatsAppButton />
        <Footer />
 
       <h5 className='titulo1'>hola mundo este es mi home</h5>
