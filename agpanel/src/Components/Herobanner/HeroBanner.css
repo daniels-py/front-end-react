@@ -34,8 +34,10 @@
     transform: translate(-50%, -50%);
     background: radial-gradient(circle at 30% 30%,
         #d487ec 0%,
-        #8818f0 50%,
-        #eb5ab1 100%
+        #8818f0 30%,
+        #eb5ab1 60%,
+        #ff3c5c 80%,    /* Nuevo color */
+        #f72b2b 100%   /* Otro color */
     );
     animation: moveGradient 10s linear infinite;
     background-size: 300% 300%;
