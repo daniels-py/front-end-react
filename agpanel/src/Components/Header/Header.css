@@ -70,8 +70,23 @@
   gap: 1rem;
 }
 
-/* --- Responsive: Estilos para pantallas pequeñas --- */
+/* --- Posicionamiento del botón de login en la esquina inferior derecha --- */
+.login-bottom-right {
+  position: absolute;
+  right: 2rem;
+  bottom: 1rem;
+  z-index: 1000;
+}
+
+/* Ajuste para responsive si lo deseas ocultar en móvil */
 @media (max-width: 768px) {
+  .login-bottom-right {
+    position: static;
+    right: unset;
+    bottom: unset;
+    margin-top: 1rem;
+  }
+
   .nav {
     position: absolute;
     top: 100%;

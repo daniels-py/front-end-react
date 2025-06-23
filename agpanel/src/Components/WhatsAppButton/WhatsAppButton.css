@@ -3,8 +3,8 @@
     bottom: 300px; /* Aumenta la distancia desde la parte inferior */
     right: 20px; /* Distancia desde la parte derecha */
     z-index: 10000; /* Asegura que esté por encima de otros elementos */
-    width: 60px;
-    height: 60px;
+    width: 75px;
+    height: 75px;
     background-color: #25d366;
     border-radius: 50%;
     display: flex;
@@ -16,7 +16,7 @@
 
 
 .whatsapp-button:hover {
-    transform: scale(1.1);
-    border-color: #cfa8ff;            /* Borde morado pastel */
+      box-shadow: 0 4px 12px rgba(142, 125, 240, 0.911);
+        /* Borde morado pastel */
 
 }
