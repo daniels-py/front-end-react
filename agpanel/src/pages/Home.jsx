@@ -26,9 +26,6 @@ function Home() {
       <ProductoCatalogo />
       
        <Footer />
-
-      <h5 className='titulo1'>hola mundo este es mi home</h5>
-      <button onClick={() => navigate('/login')}>Ir a Login</button>
     </div>
     
   )
