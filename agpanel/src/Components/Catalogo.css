@@ -1,8 +1,12 @@
 
 .catalogo {
   padding: 2rem 1rem;
-  max-width: 1200px;
+  max-width: 1500px;
   margin: auto;
+  background-color: #ffffff;
+  margin-top: 4rem;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.08);
+
 }
 
 .catalogo h2 {

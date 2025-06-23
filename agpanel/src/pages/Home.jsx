@@ -11,6 +11,7 @@ import Herobanner from '../Components/Herobanner/HeroBanner';
 import Footer from '../Components/Footer/Footer';
 import WhatsAppButton from '../Components/WhatsAppButton/WhatsAppButton';
 import ProductoCatalogo from '../Components/ProductoCatalogo';
+import Ubicacion from '../Components/Ubicacion/Ubicacion';
 
 
 function Home() {
@@ -24,7 +25,7 @@ function Home() {
       <WhatsAppButton />
       {/* Aquí muestras el catálogo */}
       <ProductoCatalogo />
-      
+      <Ubicacion />
        <Footer />
     </div>
     
