@@ -9,8 +9,9 @@ const ProductoCard = ({ producto }) => {
         <div className="sin-imagen">Sin imagen</div>
       )}
       <h4>{producto.nombre}</h4>
-      <p><strong>${producto.precio}</strong></p>
       <p>{producto.descripcion}</p>
+      <p><strong>${producto.precio}</strong></p>
+
       <button>Más info</button>
     </div>
   );
