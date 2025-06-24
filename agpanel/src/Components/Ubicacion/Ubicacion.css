@@ -21,7 +21,7 @@
 }
 
 .ubicacion-header p {
-  color: #e9d5ff;
+  color: #eeeeee;
   font-size: 1.125rem;
 }
 
@@ -61,15 +61,15 @@
 }
 
 .icon.purple {
-  background-color: #9333ea;
+  background-color: #b26df3;
 }
 
 .icon.pink {
-  background-color: #db2777;
+  background-color: #f13b8d;
 }
 
 .icon.rose {
-  background-color: #e11d48;
+  background-color: #ee3d64;
 }
 
 .ubicacion-info h3 {
@@ -78,7 +78,7 @@
 }
 
 .ubicacion-info p {
-  color: #d8b4fe;
+  color: #fafafa;
 }
 
 .ubicacion-mapa {
