@@ -33,7 +33,6 @@ const Footer = () => {
             <a href="#"><FontAwesomeIcon icon={faFacebookF} /></a>
             <a href="#"><FontAwesomeIcon icon={faInstagram} /></a>
             <a href="#"><FontAwesomeIcon icon={faTiktok} /></a>
-            <a href="#"><FontAwesomeIcon icon={faWhatsapp} /></a>
           </div>
         </div>
       </div>
