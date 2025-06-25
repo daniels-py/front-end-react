@@ -21,8 +21,7 @@ const Ubicacion = () => {
               <div>
                 <h3>Dirección</h3>
                 <p>
-                  Av. Insurgentes Sur 1234, Col. Del Valle<br />
-                  Ciudad de México, CDMX 03100
+                  Cra. 12 #17-70, Funza, Cundinamarca
                 </p>
               </div>
             </div>
@@ -31,10 +30,10 @@ const Ubicacion = () => {
               <div className="icon pink"><Clock /></div>
               <div>
                 <h3>Horarios</h3>
-                <p>
+                <p> 
                   Lunes a Viernes: 9:00 AM - 7:00 PM<br />
-                  Sábados: 9:00 AM - 5:00 PM<br />
-                  Domingos: Cerrado
+                  Sábados y Domingos: 9:00 AM - 6:00 PM<br />
+            
                 </p>
               </div>
             </div>
@@ -44,7 +43,7 @@ const Ubicacion = () => {
               <div>
                 <h3>Contacto</h3>
                 <p>
-                  +52 (55) 1234-5678<br />
+                  +57 3000000<br />
                   ventas@beautylux.com
                 </p>
               </div>

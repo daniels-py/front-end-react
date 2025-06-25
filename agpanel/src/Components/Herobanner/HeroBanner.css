@@ -29,7 +29,7 @@
 .sunrise-circle {
     width: 1400px;
     height: 600px;
-    top: 80%;
+    top: 10%;
     left: 50%;
     transform: translate(-50%, -50%);
     background: radial-gradient(circle at 30% 30%,
