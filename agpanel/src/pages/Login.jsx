@@ -47,20 +47,20 @@ const Login = () => {
     <div className="login-container">
       <div className="login-left">
         <div className="login-form-wrapper">
-          <h3>Start your journey</h3>
-          <h2>Sign In to InsideBox</h2>
+          <h3>Comienza tu viaje</h3>
+          <h2>Inicia sesión en</h2>
 
           <form onSubmit={handleSubmit}>
-            <label>Email</label>
+            <label>Correo electrónico</label>
             <input
               type="email"
-              placeholder="example@email.com"
+              placeholder="ejemplo@email.com"
               value={email}
               onChange={(e) => setEmail(e.target.value)}
               required
             />
 
-            <label>Password</label>
+            <label>Contraseña</label>
             <input
               type="password"
               placeholder="••••••••"
@@ -71,10 +71,10 @@ const Login = () => {
 
             {errorMsg && <p className="error">{errorMsg}</p>}
 
-            <button type="submit">Sign In</button>
+            <button type="submit">Iniciar sesión</button>
           </form>
 
-          <div className="or-divider">or sign in with</div>
+          <div className="or-divider">o inicia sesión con</div>
           <div className="social-buttons">
             <button className="fb">f</button>
             <button className="google">G</button>
@@ -82,7 +82,7 @@ const Login = () => {
           </div>
 
           <p className="signin-footer">
-            Don't have an account? <a href="#">Sign up</a>
+            ¿No tienes una cuenta? <a href="#">Regístrate</a>
           </p>
         </div>
       </div>

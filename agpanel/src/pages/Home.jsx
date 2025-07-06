@@ -24,6 +24,7 @@ function Home() {
        <Herobanner />
       <WhatsAppButton />
       {/* Aquí muestras el catálogo */}
+      <ProductoCatalogo />
       <Ubicacion />
        <Footer />
     </div>
