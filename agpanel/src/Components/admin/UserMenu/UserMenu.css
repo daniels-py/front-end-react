@@ -1,0 +1,154 @@
+.user-menu {
+  position: relative;
+}
+
+.user-menu__trigger {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+  border: none;
+  background: transparent;
+  cursor: pointer;
+  transition: background-color 0.2s;
+  color: #374151;
+}
+
+.user-menu__trigger:hover {
+  background-color: #f3f4f6;
+}
+
+.user-menu__avatar {
+  width: 2rem;
+  height: 2rem;
+  background: linear-gradient(135deg, #bc60fa, #38bdf8);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-weight: 600;
+  font-size: 0.875rem;
+}
+
+.user-menu__avatar-image {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.user-menu__info {
+  display: none;
+  text-align: left;
+}
+
+.user-menu__name {
+  font-size: 0.875rem;
+  font-weight: 500;
+  color: #111827;
+  margin: 0;
+}
+
+.user-menu__role {
+  font-size: 0.75rem;
+  color: #6b7280;
+  margin: 0;
+}
+
+.user-menu__dropdown {
+  position: absolute;
+  right: 0;
+  top: calc(100% + 1rem);
+  width: 20rem;
+  background-color: #fff;
+  border-radius: 0.5rem;
+  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+  border: 1px solid #e5e7eb;
+  padding: 0.5rem 0;
+  z-index: 50;
+}
+
+.user-menu__header {
+  padding: 0.75rem 1rem;
+  border-bottom: 1px solid #e5e7eb;
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+}
+
+.user-menu__header-avatar {
+width: 3rem;
+height: 3rem;
+background: linear-gradient(135deg, #faa860, #38bdf8);
+border-radius: 100%;
+display: flex;
+align-items: center;
+justify-content: center;
+color: white;
+font-weight: 600;
+box-shadow: 0 2px 8px rgba(56, 189, 248, 0.15);
+border: 2px solid #e0e7ef;
+transition: box-shadow 0.2s, border 0.2s;
+}
+
+.user-menu__header-avatar-image {
+width: 100%;
+height: 100%;
+border-radius: 50%;
+object-fit: cover;
+box-shadow: 0 1px 4px rgba(96, 165, 250, 0.10);
+}
+
+.user-menu__header-info {
+  flex: 1;
+}
+
+.user-menu__header-name {
+  font-weight: 500;
+  color: #111827;
+  margin: 0;
+}
+
+.user-menu__header-email {
+  font-size: 0.875rem;
+  color: #6b7280;
+  margin: 0;
+}
+
+.user-menu__header-role {
+  font-size: 0.75rem;
+  color: #2563eb;
+  font-weight: 500;
+  margin: 0;
+}
+
+.user-menu__actions {
+  padding: 0.5rem 0;
+}
+
+.user-menu__action {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  padding: 0.5rem 1rem;
+  font-size: 0.875rem;
+  color: #6b7280;
+  border: none;
+  background: transparent;
+  cursor: pointer;
+  transition: background-color 0.2s;
+  text-align: left;
+}
+
+.user-menu__action:hover {
+  background-color: #f3f4f6;
+}
+
+@media (min-width: 768px) {
+  .user-menu__info {
+    display: block;
+  }
+}
